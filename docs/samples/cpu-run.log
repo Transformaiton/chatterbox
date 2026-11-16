@@ -1,0 +1,19 @@
+torch 2.6.0+cpu cuda False
+loading Chatterbox-Nano on cpu
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 10 files:  60%|██████    | 6/10 [00:00<00:00, 10.19it/s]Fetching 10 files:  80%|████████  | 8/10 [00:02<00:00,  2.25it/s]Fetching 10 files:  90%|█████████ | 9/10 [00:04<00:00,  1.51it/s]Fetching 10 files: 100%|██████████| 10/10 [00:04<00:00,  1.76it/s]Fetching 10 files: 100%|██████████| 10/10 [00:04<00:00,  2.10it/s]
+/tmp/cbx/lib/python3.12/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded in 8.6s sr=24000
+  0%|          | 0/1000 [00:00<?, ?it/s]  1%|          | 10/1000 [00:00<00:09, 99.81it/s]  2%|▏         | 21/1000 [00:00<00:09, 104.90it/s]  3%|▎         | 32/1000 [00:00<00:09, 105.35it/s]  4%|▍         | 43/1000 [00:00<00:09, 106.19it/s]  5%|▌         | 54/1000 [00:00<00:08, 105.99it/s]  6%|▋         | 65/1000 [00:00<00:08, 104.36it/s]  8%|▊         | 76/1000 [00:00<00:09, 95.92it/s]   9%|▊         | 87/1000 [00:00<00:09, 97.96it/s] 10%|▉         | 97/1000 [00:00<00:09, 97.13it/s] 11%|█         | 108/1000 [00:01<00:09, 98.46it/s] 12%|█▏        | 118/1000 [00:01<00:09, 97.46it/s] 13%|█▎        | 128/1000 [00:01<00:09, 95.35it/s] 14%|█▍        | 139/1000 [00:01<00:08, 97.29it/s] 15%|█▍        | 149/1000 [00:01<00:08, 97.29it/s] 16%|█▌        | 160/1000 [00:01<00:08, 98.93it/s] 17%|█▋        | 171/1000 [00:01<00:08, 99.77it/s] 17%|█▋        | 172/1000 [00:01<00:08, 99.05it/s]
+S3 Token -> Mel Inference...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.78it/s]100%|██████████| 2/2 [00:00<00:00,  2.47it/s]100%|██████████| 2/2 [00:00<00:00,  2.51it/s]
+generated in 10.8s shape=(1, 168960)
+wrote /tmp/chatterbox-run/nano-greeting.wav duration=7.04s
+  0%|          | 0/1000 [00:00<?, ?it/s]  1%|          | 10/1000 [00:00<00:10, 96.40it/s]  2%|▏         | 20/1000 [00:00<00:10, 96.45it/s]  3%|▎         | 31/1000 [00:00<00:09, 99.27it/s]  4%|▍         | 42/1000 [00:00<00:09, 100.20it/s]  5%|▌         | 53/1000 [00:00<00:09, 99.32it/s]   6%|▋         | 64/1000 [00:00<00:09, 100.68it/s]  8%|▊         | 75/1000 [00:00<00:09, 102.08it/s]  9%|▊         | 86/1000 [00:00<00:09, 100.88it/s] 10%|▉         | 97/1000 [00:00<00:08, 100.81it/s] 11%|█         | 108/1000 [00:01<00:09, 92.39it/s] 12%|█▏        | 119/1000 [00:01<00:09, 94.95it/s] 13%|█▎        | 130/1000 [00:01<00:08, 97.91it/s] 13%|█▎        | 132/1000 [00:01<00:08, 97.76it/s]
+S3 Token -> Mel Inference...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.89it/s]100%|██████████| 2/2 [00:00<00:00,  3.82it/s]100%|██████████| 2/2 [00:00<00:00,  3.83it/s]
+cloned in 4.4s shape=(1, 130560)
+wrote /tmp/chatterbox-run/nano-cloned.wav duration=5.44s
+done
+EXIT:0
